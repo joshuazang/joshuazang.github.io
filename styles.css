@@ -17,7 +17,8 @@ a { color: inherit; text-underline-offset: 5px; }
 a:focus-visible { outline: 2px solid var(--ink); outline-offset: 6px; }
 .page { width: min(680px, calc(100% - 64px)); margin: 0 auto; }
 header { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding-top: 48px; font-size: 13px; }
-.name { text-decoration: none; font-weight: 500; }
+.wordmark { color: #202820; font-family: Arial, Helvetica, sans-serif; font-size: 40px; font-weight: 800; line-height: 1; letter-spacing: -3px; text-decoration: none; }
+.wordmark span { color: #638a36; }
 .site-note { color: var(--muted); font-size: 12px; }
 main { padding: 100px 0 80px; }
 h1 { margin: 0 0 32px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(36px, 6vw, 52px); font-weight: 400; line-height: 1.16; letter-spacing: -1.7px; }
